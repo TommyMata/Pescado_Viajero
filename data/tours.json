@@ -1,0 +1,22 @@
+{
+    "tours": [
+        {
+            "nombre":"Tour completo por cataratas de Tuis",
+            "tipo":"Aventureros",
+            "capacidad":5,
+            "precio":20000
+        },
+        {
+            "nombre":"Tour por la montana con vista de flora y fauna",
+            "tipo":"Todo el publico",
+            "capacidad":30,
+            "precio":200000
+        },
+        {
+            "nombre":"Senderismo a la naciente del rio Tuis",
+            "tipo":"Todo el publico",
+            "capacidad":40,
+            "precio":15000
+        }
+    ]
+}

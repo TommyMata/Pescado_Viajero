@@ -1,0 +1,506 @@
+div#titulo, div#footerText {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Impact";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: 
+    text-align: left;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
+
+img {
+    vertical-align: middle;
+    padding: 0.1rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    border-radius: 0;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+input,
+button,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+select {
+    word-wrap: normal;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, .h1 {
+    font-size: 2.5rem;
+}
+
+h2, .h2 {
+    font-size: 2rem;
+}
+
+h3, .h3 {
+    font-size: 1.75rem;
+}
+
+h4, .h4 {
+    font-size: 1.5rem;
+}
+
+h5, .h5 {
+    font-size: 1.25rem;
+}
+
+h6, .h6 {
+    font-size: 1rem;
+}
+
+footer {
+    bottom: 0;
+    clear: both;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0.1em;
+    vertical-align: top;
+    border-radius:5px
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0.1em;
+    vertical-align: top;
+    border-radius:5px
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 1rem;
+    border-radius:5px
+}
+
+div#logo {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+div#divDinamico {
+    text-align: center;
+    width: 500px;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+div#divIz {
+    text-align: center;
+    overflow-wrap: break-word;
+    position: absolute;
+}
+
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+div#lMenu, div#rMenu {
+    display: block;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right:  0.5rem;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border-radius:5px;
+}
+
+div#lMenu {
+    float: left;
+}
+
+div#rMenu {
+    float: right;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    background-color: #FF0000;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: #000000;
+}
+
+
+/*   RESPONSIVE   */
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    img#imgContenido {
+        align:inherit;
+        float:inherit;
+    }
+
+    p#parrCuerpo {
+        align:bottom;
+        text-align: justify;
+        width: 100%;
+        float:center;
+        margin-bottom:1rem;
+        font-size:1.4rem;
+    }
+
+     section#contenido, div#cuerpoCentro {
+        width:auto;
+        margin-left:1.5rem;
+    }
+
+    div#divDinamico {
+        float:center;
+        align:center;
+        position: relative;
+        width:55%;
+    }
+
+    section#menuIz, div#divIz, div#lMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        font-size:1.4rem;
+    }
+
+    section#menuDe, div#divDe, div#rMenu {
+        float:right;
+        align:right;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+    }
+
+    h5 {
+        font-size:1.4rem;
+    }
+
+    canvas {
+        width:1200px;
+        height:auto;
+    }
+
+    .fade, div#logo,  div#divNav {
+        width:auto;
+        align:inherit;
+        float:inherit;
+        font-size:1.4rem;
+    }
+
+    ul#ulContenedorDerecho {
+        align-items: stretch;
+    }
+}
+
+
+/* de acá esta listo */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    img#imgContenido {
+        align:center;
+        float:center;
+    }
+
+    p#parrCuerpo {
+        align:bottom;
+        text-align: justify;
+        width: 100%;
+        float:center;
+        margin-bottom:5rem;
+        font-size:1.4rem;
+    }
+
+    section#contenido, div#cuerpoCentro {
+        width:auto;
+        margin-left:1.5rem;
+    }
+
+    div#divDinamico {
+        float:center;
+        align:center;
+        position: relative;
+        width:55%;
+    }
+
+    section#menuIz, div#divIz, div#lMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        font-size:1.4rem;
+    }
+
+    section#menuDe, div#divDe, div#rMenu {
+        float:right;
+        align:right;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+    }
+
+    h5 {
+        font-size:1.4rem;
+    }
+
+    canvas {
+        width:1024px;
+        height:auto;
+    }
+
+    .fade, div#logo,  div#divNav {
+        width:auto;
+        align:inherit;
+        float:inherit;
+        font-size:1.4rem;
+    }
+
+    ul#ulContenedorDerecho {
+        align-items: stretch;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    img#imgContenido {
+        align:center;
+        float:center;
+    }
+
+    p#parrCuerpo {
+        align:center;
+        float:inherit;
+        text-align: justify;
+        width: 100%;
+        margin-bottom:4rem;
+    }
+
+    section#contenido, div#cuerpoCentro {
+        width:auto;
+    }
+
+    div#divDinamico {
+        float:center;
+        align:center;
+        position: relative;
+        width:35%;
+    }
+
+    section#menuIz, div#divIz, div#lMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+    }
+
+    section#menuDe, div#divDe, div#rMenu {
+        float:right;
+        align:right;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+    }
+
+    canvas {
+        width:768px;
+        height:auto;
+    }
+
+    .fade, div#logo,  div#divNav {
+        width:auto;
+        align:inherit;
+        float:inherit;
+    }
+
+    ul#ulContenedorDerecho {
+        align-items: stretch;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    img#imgContenido {
+        align:center;
+        float:center;
+    }
+
+    p#parrCuerpo {
+        align:bottom;
+        text-align: justify;
+        width: 70%;
+        float:center;
+        margin-top:3rem;
+        margin-bottom:1rem;
+        margin-left:2rem;
+        padding:2rem;
+    }
+
+     section#contenido, div#cuerpoCentro {
+        width:auto;
+    }
+
+    div#divDinamico {
+        float:center;
+        align:center;
+        position: relative;
+        width:50%;
+    }
+
+    section#menuIz, div#divIz, div#lMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        margin-left:3.5rem;
+    }
+
+    section#menuDe, div#divDe, div#rMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        margin-left:3.5rem;
+    }
+
+    canvas {
+        width:480px;
+        height:auto;
+    }
+
+    .fade, div#logo,  div#divNav {
+        width:auto;
+        align:inherit;
+        float:inherit;
+    }
+
+    ul#ulContenedorDerecho {
+        align-items: stretch;
+    }
+}
+
+
+@media(max-width:320px){
+    img#imgContenido {
+        align:inherit;
+        float:inherit;
+        margin-left:10rem;
+    }
+
+    p#parrCuerpo {
+        align:bottom;
+        text-align: justify;
+        width: 70%;
+        float:center;
+        margin-top:3rem;
+        margin-bottom:1rem;
+        margin-left:2rem;
+        padding:2rem;
+    }
+
+    section#contenido, div#divDinamico, div#cuerpoCentro {
+        float:left;
+        align:left;
+        position: relative;
+    }
+
+      section#menuIz, div#divIz, div#lMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        margin-left:3rem;
+    }
+
+    section#menuDe, div#divDe, div#rMenu {
+        float:left;
+        align:left;
+        position: relative;
+        margin-top:auto;
+        margin-bottom:1rem;
+        margin-left:3rem;
+    }
+
+    canvas {
+        width:320px;
+        height:auto;
+    }
+
+    .fade, div#logo,  div#divNav {
+        width:300px;
+        align:inherit;
+        float:center;
+        margin-left:2.6rem;
+    }
+
+    div#divNav {
+        margin-left:5rem;
+    }
+
+    ul#ulContenedorDerecho {
+        align-items: stretch;
+    }
+}

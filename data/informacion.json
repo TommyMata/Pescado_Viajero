@@ -1,0 +1,72 @@
+{
+   "fauna": [
+        {
+            "nombre": "Manigordo",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["El Manigordo es una especie de felino de mediano tamaño, con una longitud de cabeza y cuerpo de 70 - 90 cm, cola relativamente corta (30-40 cm, un 45% de la longitud de cabeza y cuerpo) y un peso en el entorno de los 11 kg. En Mesoamérica, es el tercer felino más grande después del jaguar y del puma, y el más grande de los pequeños felinos manchados, mayor que el caucel y el tigrillo."],
+            "img": [
+                {
+                    "alt": "El manigordo, Leopardus pardalis, es el más grande entre los pequeños felinos manchados",
+                    "rutaImagen": "public/img/manigordo.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Serpiente Coral",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["La serpiente coral es pariente de la cobra, la mamba y la serpiente marina. Vive en los bosques, arenales y pantanos, y pasa la mayor parte de su vida bajo tierra o entre montones de hojarasca. Se alimenta de lagartos, ranas y serpientes más pequeñas, incluidas otras serpientes coral. Cuando salen de los huevos, las crías de serpiente coral miden casi 18 centímetros y son ya venenosas. Los ejemplares adultos pueden alcanzar algo más de medio metro de longitud. Se desconoce su longevidad media en libertad; en cautividad pueden vivir hasta siete años."],
+            "img": [
+                {
+                    "alt": "Serpiente venenosa de la familia Elapidae propias de zonas tropicales.",
+                    "rutaImagen": "public/img/coral.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Tucan",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["Son una familia de aves ranfástidas del orden de los piciformes es muy amplia ya que alberga seis géneros y cuarenta y dos especies diferentes de tucanes. Se caracterizan por poseer un pico muy desarrollado y de vivos colores. Miden entre 18 y 65 cm. Los tucanes son aves de plumas y pico de colores muy llamativos, se pueden observar mayormente en arboles."],
+            "img": [
+                {
+                    "alt": "Los ranfástidos (Ramphastidae), conocidos comúnmente como tucanes.",
+                    "rutaImagen": "public/img/tucan.jpg"
+                }
+            ]
+        }
+    ],
+     "flora": [
+        {
+            "nombre": "Güitite",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["Arbol conocido principalmente por su corteza gruesa, amarillenta, suave y esponjosa, la cual forma parte de la cultura campesina porque desde hace muchos años se ha utilizado para pegar orquideas de todo tipo, ademas de que es habitual que los pajaros recidan en ellos"],
+            "img": [
+                {
+                    "alt": "Arbol del género monotípico de plantas en la familia de las Solanáceas ",
+                    "rutaImagen": "public/img/guitite.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Ceiba",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["Este árbol juega un papel importante en las mitologías de las culturas mesoamericanas precolombinas. Por ejemplo, varias tribus amazónicas del este de Perú creen que las deidades viven en especies de árboles de Ceiba en toda la selva, de igual manera pasa con las tribus nativas de Costa Rica."],
+            "img": [
+                {
+                    "alt": "Es parte de un género de árboles de la familia Malvaceae",
+                    "rutaImagen": "public/img/ceiba.jpg"
+                }
+            ]
+        },
+        {
+            "nombre": "Guarumo",
+            "link": "?controller=Index&action=showMeta",
+            "description": ["Puede alcanzar hasta 20 m de altura. El tronco es alto y delgado, de color blanquecino y con divisiones como el bambú; las hojas y ramas se encuentran en la parte alta del árbol. Tiene solo ramificaciones primarias. Cuando las ramas se secan, las hojas se caen y dejan una cicatriz en el tronco por lo que se ve ornamentado."],
+            "img": [
+                {
+                    "alt": "Su nombre Cecropia sp, conocido popularmente como Guarumo.",
+                    "rutaImagen": "public/img/guarumo.jpg"
+                }
+            ]
+        }
+    ]
+}
